@@ -4,6 +4,22 @@ Automatically backup your flows.
 ## FAB program
 To utilize flow auto backup (FAB), you must make a program flow which utilizes the FAB functions. You should not have to modify the FAB functions at all. An example FAB program flow is included in this repository. The example program executes backups once per hour, archiving the returned flows in a heirarchy following the flow grouping in the flow pane.
 
+### Example
+You can use the FAB Parent Folders as well as the FAB Flow Name to set a hierarchy path in Switch using ‘Set hierarchy path’:
+
+- [Job.PrivateData:Key="FAB Parent Folder4"]
+- [Job.PrivateData:Key="FAB Parent Folder3"]
+- [Job.PrivateData:Key="FAB Parent Folder2"]
+- [Job.PrivateData:Key="FAB Parent Folder1"]
+- [Job.PrivateData:Key="FAB Flow Name"]
+- .sflows file
+
+<img src="http://i.imgur.com/xIV5k1w.png" width="400">
+
+Here is an example of results using the example above:
+
+<img src="http://i.imgur.com/q5mtO50.png" width="400">
+
 ## FAB functions
 ### Introduction
 This  flow function group will provide archivable .sflow files of every flow on a Switch system, as well as their metadata. One potential use is to back up all .sflow files, and archive them according to Switch flow groups:
@@ -34,18 +50,5 @@ The optional Failure Callback, will return failed jobs with the following privat
 - __FAB Fail Element__
 - __FAB Fail Message__
 - __FAB Fail Module__
-
-### Example
-You can use the FAB Parent Folders as well as the FAB Flow Name to set a hierarchy path in Switch using ‘Set hierarchy path’:
-
-- [Job.PrivateData:Key="FAB Parent Folder4"]
-- [Job.PrivateData:Key="FAB Parent Folder3"]
-- [Job.PrivateData:Key="FAB Parent Folder2"]
-- [Job.PrivateData:Key="FAB Parent Folder1"]
-- [Job.PrivateData:Key="FAB Flow Name"]
-- .sflows file
-- 
-Here is an example of results using the example above:
-
 
 
