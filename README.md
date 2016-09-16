@@ -1,5 +1,5 @@
 # switch-flow-auto-backup
-Automatically backup your flows.
+Automatically backup your flows. Backs up multiple revisions as easily restorable .sflow files.
 
 ## FAB program
 To utilize flow auto backup (FAB), you must make a program flow which utilizes the FAB functions. You should not have to modify the FAB functions at all. An example FAB program flow is included in this repository. The example program executes backups once per hour, archiving the returned flows in a heirarchy following the flow grouping in the flow pane.
