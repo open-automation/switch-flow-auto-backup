@@ -18,7 +18,7 @@ You can use the FAB Parent Folders as well as the FAB Flow Name to set a hierarc
 
 Here is an example of results using the example above:
 
-<img src="http://i.imgur.com/q5mtO50.png" width="400">
+<img=src"http://imgur.com/JibEw5J.png" width="400">
 
 ## FAB functions
 ### Introduction
