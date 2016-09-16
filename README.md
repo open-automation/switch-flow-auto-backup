@@ -51,4 +51,11 @@ The optional Failure Callback, will return failed jobs with the following privat
 - __FAB Fail Message__
 - __FAB Fail Module__
 
-
+## Scripts used
+- [switch-portals](https://github.com/open-automation/switch-portals)
+- [switch-private-data-write](https://github.com/open-automation/switch-private-data-write)
+- [switch-dummy-job-clock](https://github.com/open-automation/switch-dummy-job-clock)
+- [switch-variable-assert](https://github.com/open-automation/switch-variable-assert)
+- [switch-flat-archive](https://github.com/open-automation/switch-flat-archive)
+- [switch-flow-group-discovery](https://github.com/open-automation/switch-flow-group-discovery)
+- [switch-inject-lite](https://github.com/open-automation/switch-inject-lite)
